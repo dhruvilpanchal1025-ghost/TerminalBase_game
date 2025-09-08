@@ -1,0 +1,60 @@
+/home/pand2720/major-project/include/BadNPC.hpp:7: warning: Compound BadNPC is not documented.
+/home/pand2720/major-project/include/EscapeRoom.hpp:6: warning: Compound EscapeRoom is not documented.
+/home/pand2720/major-project/include/Game.hpp:21: warning: Compound Game is not documented.
+/home/pand2720/major-project/include/GoodNPC.hpp:7: warning: Compound GoodNPC is not documented.
+/home/pand2720/major-project/include/NPC.hpp:7: warning: Compound NPC is not documented.
+/home/pand2720/major-project/include/NPCRiddleRoom.hpp:7: warning: Compound NPCRiddleRoom is not documented.
+/home/pand2720/major-project/include/ActionBasedRoom.hpp:22: warning: Member monsterName (variable) of class ActionBasedRoom is not documented.
+/home/pand2720/major-project/include/ActionBasedRoom.hpp:23: warning: Member correctWeaponID (variable) of class ActionBasedRoom is not documented.
+/home/pand2720/major-project/include/ActionBasedRoom.hpp:28: warning: argument 'string' of command @param is not found in the argument list of ActionBasedRoom::ActionBasedRoom(const std::string &monsterName, int DorrectWeaponID)
+/home/pand2720/major-project/include/ActionBasedRoom.hpp:28: warning: argument 'int' of command @param is not found in the argument list of ActionBasedRoom::ActionBasedRoom(const std::string &monsterName, int DorrectWeaponID)
+/home/pand2720/major-project/include/ActionBasedRoom.hpp:28: warning: The following parameters of ActionBasedRoom::ActionBasedRoom(const std::string &monsterName, int DorrectWeaponID) are not documented:
+  parameter 'monsterName'
+  parameter 'DorrectWeaponID'
+/home/pand2720/major-project/include/ActionBasedRoom.hpp:44: warning: argument 'int' of command @param is not found in the argument list of ActionBasedRoom::isSolved(int playerChoice) const
+/home/pand2720/major-project/include/ActionBasedRoom.hpp:44: warning: The following parameter of ActionBasedRoom::isSolved(int playerChoice) const is not documented:
+  parameter 'playerChoice'
+/home/pand2720/major-project/include/BadNPC.hpp:10: warning: Member reactToAnswer(bool correct) const override (function) of class BadNPC is not documented.
+/home/pand2720/major-project/include/BadNPC.hpp:11: warning: Member speak() const (function) of class BadNPC is not documented.
+/home/pand2720/major-project/include/BadNPC.hpp:12: warning: Member askRiddle() const (function) of class BadNPC is not documented.
+<reactToAnswer>:1: warning: parameters of member BadNPC::reactToAnswer are not documented
+/home/pand2720/major-project/include/Game.hpp:46: warning: return type of member Game::getNumPuzzlesSolved is not documented
+/home/pand2720/major-project/include/Game.hpp:23: warning: Member player (variable) of class Game is not documented.
+/home/pand2720/major-project/include/Game.hpp:24: warning: Member numPuzzlesSolved (variable) of class Game is not documented.
+/home/pand2720/major-project/include/Game.hpp:29: warning: argument 'string' of command @param is not found in the argument list of Game::Game(const std::string &playerName)
+/home/pand2720/major-project/include/Game.hpp:29: warning: The following parameter of Game::Game(const std::string &playerName) is not documented:
+  parameter 'playerName'
+/home/pand2720/major-project/include/Game.hpp:53: warning: argument 'bool' of command @param is not found in the argument list of Game::updateNumPuzzlesSolved(bool isSolved)
+/home/pand2720/major-project/include/Game.hpp:53: warning: The following parameter of Game::updateNumPuzzlesSolved(bool isSolved) is not documented:
+  parameter 'isSolved'
+/home/pand2720/major-project/include/GoodNPC.hpp:11: warning: Member reactToAnswer(bool correct) const override (function) of class GoodNPC is not documented.
+/home/pand2720/major-project/include/GoodNPC.hpp:13: warning: Member speak() const (function) of class GoodNPC is not documented.
+/home/pand2720/major-project/include/GoodNPC.hpp:14: warning: Member askRiddle() const (function) of class GoodNPC is not documented.
+<reactToAnswer>:1: warning: parameters of member GoodNPC::reactToAnswer are not documented
+/home/pand2720/major-project/include/NPC.hpp:9: warning: Member reactToAnswer(bool correct) const =0 (function) of class NPC is not documented.
+/home/pand2720/major-project/include/Player.hpp:16: warning: Member name (variable) of class Player is not documented.
+/home/pand2720/major-project/include/Player.hpp:21: warning: argument 'string' of command @param is not found in the argument list of Player::Player(const std::string &name)
+/home/pand2720/major-project/include/Player.hpp:21: warning: The following parameter of Player::Player(const std::string &name) is not documented:
+  parameter 'name'
+/home/pand2720/major-project/include/Player.hpp:27: warning: argument 'int' of command @param is not found in the argument list of Player::chooseRoom(int roomNumber)
+/home/pand2720/major-project/include/Player.hpp:27: warning: The following parameter of Player::chooseRoom(int roomNumber) is not documented:
+  parameter 'roomNumber'
+/home/pand2720/major-project/include/PuzzleRoom.hpp:19: warning: Member question (variable) of class PuzzleRoom is not documented.
+/home/pand2720/major-project/include/PuzzleRoom.hpp:20: warning: Member correctAnswer (variable) of class PuzzleRoom is not documented.
+/home/pand2720/major-project/include/PuzzleRoom.hpp:25: warning: argument 'string' of command @param is not found in the argument list of PuzzleRoom::PuzzleRoom(const std::string &question, int correctAnswer)
+/home/pand2720/major-project/include/PuzzleRoom.hpp:25: warning: argument 'int' of command @param is not found in the argument list of PuzzleRoom::PuzzleRoom(const std::string &question, int correctAnswer)
+/home/pand2720/major-project/include/PuzzleRoom.hpp:25: warning: The following parameters of PuzzleRoom::PuzzleRoom(const std::string &question, int correctAnswer) are not documented:
+  parameter 'question'
+  parameter 'correctAnswer'
+/home/pand2720/major-project/include/PuzzleRoom.hpp:39: warning: argument 'int' of command @param is not found in the argument list of PuzzleRoom::isSolved(int playerChoice) const
+/home/pand2720/major-project/include/PuzzleRoom.hpp:39: warning: The following parameter of PuzzleRoom::isSolved(int playerChoice) const is not documented:
+  parameter 'playerChoice'
+/home/pand2720/major-project/include/WeaponRoom.hpp:23: warning: Member availableWeapons (variable) of class WeaponRoom is not documented.
+/home/pand2720/major-project/include/WeaponRoom.hpp:33: warning: argument 'int' of command @param is not found in the argument list of WeaponRoom::addWeapon(int id, const std::string &weaponName)
+/home/pand2720/major-project/include/WeaponRoom.hpp:33: warning: argument 'string' of command @param is not found in the argument list of WeaponRoom::addWeapon(int id, const std::string &weaponName)
+/home/pand2720/major-project/include/WeaponRoom.hpp:33: warning: The following parameters of WeaponRoom::addWeapon(int id, const std::string &weaponName) are not documented:
+  parameter 'id'
+  parameter 'weaponName'
+/home/pand2720/major-project/include/WeaponRoom.hpp:47: warning: argument 'int' of command @param is not found in the argument list of WeaponRoom::isSolved(int playerChoice) const
+/home/pand2720/major-project/include/WeaponRoom.hpp:47: warning: The following parameter of WeaponRoom::isSolved(int playerChoice) const is not documented:
+  parameter 'playerChoice'
